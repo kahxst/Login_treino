@@ -2,6 +2,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  transition: 1s ease-in-out;
 }
 
 body {
@@ -49,7 +50,7 @@ html {
   background: linear-gradient(90deg, hsl(238deg, 100%, 71%) 0%, rgb(232, 116, 243) 100%);
 }
 .box .inp {
-  height: 20vh;
+  height: 40vh;
   width: 40vh;
   display: flex;
   justify-content: space-evenly;
@@ -94,4 +95,29 @@ html {
 }
 .box .minibox a:hover {
   font-size: 15px;
+}
+
+.entrar {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 15px;
+}
+.entrar button {
+  margin-right: 30px;
+  height: 35px;
+  width: 90px;
+  border: none;
+  border-radius: 5px;
+  background: #C396FF;
+}
+.entrar button a {
+  text-decoration: none;
+  color: rgb(48, 48, 48);
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-family: "Poppins", Sans-serif;
+}
+.entrar button:hover {
+  border-radius: 0px;
 }/*# sourceMappingURL=style.css.map */

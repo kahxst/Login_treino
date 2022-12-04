@@ -2,6 +2,8 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    transition: 1s ease-in-out;
+
 }
 body{
     height: 100vh;
@@ -53,7 +55,7 @@ html{
 }
  .inp{
     //    border: 1px solid red;
-        height: 20vh;
+        height: 40vh;
         width: 40vh;
         display: flex;
         justify-content: space-evenly;
@@ -96,4 +98,31 @@ html{
                 font-size: 15px;
             }
         }
+}
+
+.entrar{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+
+    button{
+        margin-right: 30px;
+        height: 35px;
+        width: 90px;
+        border: none;
+        border-radius: 5px;
+        background:#C396FF;
+        // transition: all 5s ease-out;
+        a{
+            text-decoration: none;
+            color: rgb(48, 48, 48);
+            letter-spacing: 1px;
+            font-size: 14px;
+            font-family: 'Poppins',Sans-serif;
+        }
+    }button:hover{
+        border-radius: 0px;
+       
+    }
 }
